@@ -1,12 +1,12 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
+<script>window.jQuery || document.write('<script src="scripts/vendor/jquery-1.8.2.min.js"><\/script>')</script>
 
-<script src="js/vendor/bootstrap.min.js"></script>
+<script src="scripts/vendor/bootstrap.min.js"></script>
 <!-- Include ScrollTo (Production) -->
-<script type="text/javascript" src="js/jquery-scrollto/scripts/jquery.scrollto.min.js"></script>
-<script type="text/javascript" src="js/plugins.js"></script>
+<script type="text/javascript" src="scripts/jquery-scrollto/scripts/jquery.scrollto.min.js"></script>
+<script type="text/javascript" src="scripts/plugins.js"></script>
 
-<script src="js/main.js"></script>
+<script src="scripts/main.js"></script>
 
 <script>
     var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];

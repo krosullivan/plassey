@@ -1,15 +1,23 @@
 $(document).ready(function() {{
-
+	
+	var scrollDur = 800;
+	
 	$('.nav li a').on('click',function(){
 		$('#contentArea').ScrollTo({
-		    duration: 800
+		    duration: scrollDur
+		});
+	});
+	$('#home .load_content_area').on('click',function(){
+		$('#contentArea').ScrollTo({
+		    duration: scrollDur
 		});
 	});
 	$('#contentArea .load_subcontent').on('click',function(){
 		$('#subContentArea').ScrollTo({
-		    duration: 800
+		    duration: scrollDur
 		});
 	});
+	
 	
 	globalInit();
 }});
